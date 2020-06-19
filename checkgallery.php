@@ -45,7 +45,8 @@
             <a class="nav-link" href="About.php" style="color:black;padding:20px">About</a>
           </li>
           <li class="nav-item">
-          <img src="images/bgedit.png" style="margin-top: -16px">
+          <!-- <img src="images/bgedit.png" style="margin-top: -16px"> -->
+          <img src="images/bg-removed-2edit.png" style="margin-top: -16px">
             <!-- <img src="images/circle.png" style="width: 120px; height: 80px; margin-top: -16px"> -->
           </li>
           <li class="nav-item">

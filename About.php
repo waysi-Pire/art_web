@@ -6,22 +6,12 @@
   <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css> <link
     rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <link rel="stylesheet" href="css/flexboxgrid.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+    
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="css\bootstrap-4.4.1-dist\css\bootstrap.min.css">
+ 
+  
   <title>About</title>
   <style>
     #ci,#ei,#pi,#si{height:100%;width:110%}@media only screen and (max-width:500px){.pics{margin-top:-100px}.para2{margin-left:70px}.para3 img{margin-left:70px;height:380px;margin-bottom:200px}#slider{width:600px}}.carousel-control-prev-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")!important}.carousel-control-next-icon{background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")!important}@media (max-width:768px){.navbar .navbar-nav{display:inline-block;float:none;vertical-align:top;background-color:rgba(0,0,0,.5)}.navbar .navbar-collapse{text-align:center}#ii{height:1200px}}.nav-link{font-family:CrimsonText Semi-Bold;font-size:.7rem;letter-spacing:.5em;word-spacing:0;line-height:1.81em;text-transform:uppercase;font-weight:400;color:#fff}.active,.dot:hover{background-color:#717171}@media only screen and (max-width:300px){.next,.prev,.text{font-size:11px}#ii{height:1200px}}@media screen and (max-width:1000px) and (min-width:500px){.para2{margin-left:70px}.para3 img{margin-left:70px;height:380px;margin-bottom:200px}#slider{width:600px}}p{font-family:PlayfairDisplay-Regular;color:#565656;font-size:1rem;letter-spacing:.02em;word-spacing:0;line-height:1.2em}#noheading{color:#565656;font-size:2.5rem;letter-spacing:.02em;word-spacing:0;line-height:1.2em}#myquote{font-family:Proxima Nova;font-style:italic;color:#565656;font-size:1.3rem!important;letter-spacing:.02em;word-spacing:0;line-height:1.2em}.para{color:#fff;font-size:.75rem}li a:hover{border-bottom:1px solid #fff}#list{margin:auto;padding-top:20px}*{box-sizing:border-box}.col-md-4{float:left;margin:0}.row::after{content:"";clear:both}@media (max-width:720px){.para{display:none!important}#ii{height:1200px}}#controls{margin:-180px 0 0 0;width:100%;height:50px;z-index:3;position:relative}#controls label{display:none;width:50px;height:50px;opacity:.4}#controls label:hover{opacity:1}#ii{height:100%}#slide1:checked~#controls label:nth-child(2),#slide2:checked~#controls label:nth-child(3),#slide3:checked~#controls label:nth-child(4),#slide4:checked~#controls label:nth-child(1){background:url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;float:right;margin:0 -50px 0 0;display:block;margin-left:-65px}#slide1:checked~#controls label:nth-last-child(2),#slide2:checked~#controls label:nth-last-child(3),#slide3:checked~#controls label:nth-last-child(4),#slide4:checked~#controls label:nth-last-child(1){background:url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;float:left;margin:0 0 0 -50px;display:block}#bullets{margin:150px 0 0;text-align:center}#bullets label{display:inline-block;width:10px;height:10px;border-radius:100%;background:#ccc;margin:0 10px}#slide1:checked~#bullets label:nth-child(1),#slide2:checked~#bullets label:nth-child(2),#slide3:checked~#bullets label:nth-child(3),#slide4:checked~#bullets label:nth-child(4){background:#444}@media screen and (max-width:900px){#slide1:checked~#controls label:nth-child(2),#slide1:checked~#controls label:nth-last-child(2),#slide2:checked~#controls label:nth-child(3),#slide2:checked~#controls label:nth-last-child(3),#slide3:checked~#controls label:nth-child(4),#slide3:checked~#controls label:nth-last-child(4),#slide4:checked~#controls label:nth-child(1),#slide4:checked~#controls label:nth-last-child(1){margin:0;background:#000}#ii{height:1200px}#slides{max-width:calc(100% - 140px);margin:0 auto}}.row:after{content:"";display:table;clear:both}#mylo{height:100%!important;width:100%!important;background-color:#000!important}a{color:#fff!important}a.scrolled{color:#000!important;background:0 0!important}nav{background-color:#030000!important}nav.scrolled{background-color:#fff!important}
@@ -50,7 +40,7 @@
             <a class="nav-link" href="About.php" style="color:black;padding:20px"><strong>About</strong></a>
           </li>
           <li class="nav-item">
-            <img src="images/bg-removed + white-2.png" class="pp" style="margin-left: 30px; margin-right: 30px; width: 100px; height: 85px; margin-top: -10px">
+            <img src="images/bgedit.png" class="pp" style="margin-left: 30px; margin-right: 30px; margin-top: -10px">
 
             <!-- <img src="images/logo111.png" style="margin-left: 30px; margin-right: 30px; width: 100px; height: 70px; margin-top: -10px"> -->
           </li>
@@ -142,7 +132,7 @@
         <img src="images/1.2.jpg" id="ci" style="border:none; ">
       </div>
       <div class="col-md-3 col-xs-4">
-        <img src="images/1.1.jpg" id="ei" style="border:none;">
+        <img src="images/1.1edit.jpg" id="ei" style="border:none;">
       </div>
       <div class="col-md-3 col-xs-1" id="last">
         <img src="images/1.4.jpg" id="si" style="border:none;">
@@ -200,7 +190,7 @@
           <br>
         </div>
         <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;"> 
-          <img src="images/em.jpg" class="mx-auto d-block" width="270px" height="400px">
+          <img src="images/emedit.jpg" class="mx-auto d-block" >
         </div>
         <div class="col-lg-6 col-sm-12 col-xs-12" id="c1" style="text-align: center;">
           <br>
@@ -240,7 +230,7 @@
               <br>
           </div>
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;">
-              <img src="images/ff.jpg" class="mx-auto d-block" width="270px" height="400px">
+              <img src="images/ffedit.jpg" class="mx-auto d-block" >
             </div>
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;">
               <br>
@@ -278,7 +268,7 @@ Becky
           </div>
          
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;"> 
-            <img src="images/al.jpg" class="mx-auto d-block" width="270px" height="400px">
+            <img src="images/aledit.jpg" class="mx-auto d-block">
             </div>
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;">
               
@@ -317,7 +307,7 @@ Ben
           </div>
          
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;"> 
-            <img src="images/love your family.jpg" class="mx-auto d-block" width="270px" height="400px">
+            <img src="images/loveedit.jpg" class="mx-auto d-block" >
             </div>
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;">
               
@@ -357,7 +347,7 @@ Kelly
           </div>
          
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center;"> 
-            <img src="images/gi.jpg" class="mx-auto d-block" width="270px" height="400px">
+            <img src="images/giedit.jpg" class="mx-auto d-block" >
             </div>
             <div class="col-lg-6 col-sm-12 col-xs-12" style="text-align: center; ">
               
@@ -417,80 +407,42 @@ Joe
             </ul>
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-            <img src="images/logo11.jpeg" style=" width: 100px; height: 80px">
+            <img src="images/logo11edit.jpg" >
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 
             <p>To Top</p>
             <button style="margin-top: -10px" onclick="topFunction()" id="myBtn" class="btn"><img
-                src="images/arrows.png" style=" height: 20px; width:20px"></button>
-            <script>
-              var mybutton = document.getElementById("myBtn");
-              window.onscroll = function () { scrollFunction() };
-              function scrollFunction() {
-                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                  mybutton.style.display = "block";
-                } else {
-                  mybutton.style.display = "none";
-                }
-              }
-              function topFunction() {
-                document.body.scrollTop = 0;
-                document.documentElement.scrollTop = 0;
-              }
-            </script>
+                src="images/arrowsedit.png" ></button>
+           
           </div>
         </div>
       </div>
     </section>
   </footer>
-  <script>
-    window.sr = ScrollReveal();
-    sr.reveal('.para2', {
-      duration: 2000,
-      origin: 'margin-left',
-      distance: '300px',
-      viewFactor: 0.2
-    })
-    sr.reveal('.para3', {
-      duration: 2000,
-      origin: 'right',
-      distance: '300px',
-      viewFactor: 0.2
-    })
-    sr.reveal('.vid', {
-      duration: 2500,
-      origin: 'left',
-      distance: '300px',
-      viewFactor: 0.2
-    })
-    sr.reveal('.pics', {
-      duration: 3000,
-      origin: 'bottom',
-
-      viewFactor: 0.2
-    })
-  </script>
-  <script>
-  $(window).scroll(function(){
-    var initialSrc = "images/bg-removed + white-2.png";
-  var scrollSrc = "images/bg-removed-2.png";
-  $(window).scroll(function(){
-  $('a').toggleClass('scrolled', $(this).scrollTop() > 900);
-  var value = $(this).scrollTop();
-  if(value>900)
-    $(".pp").attr("src",scrollSrc);
-  else
-    $(".pp").attr("src",initialSrc);
-  });
+  <script type="text/javascript">
+    function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "./scripts.js";
+        document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script>
   
-  });
-</script>
- <script>
-  $(window).scroll(function(){
-  $('nav').toggleClass('scrolled', $(this).scrollTop() > 900);
-  });
-</script>
+
+<script src="https://unpkg.com/scrollreveal@4.0.6/dist/scrollreveal.js"></script>
+    <script src="css\bootstrap-4.4.1-dist\js\bootstrap.min.js"></script>
+  <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 </body>
 
 </html>

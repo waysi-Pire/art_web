@@ -2,32 +2,23 @@
 <html>
 <head>
 <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href = https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <meta name=”viewport” content=”width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/rotating-slider.min.css">
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
- <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css> <link
-    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <link rel="stylesheet" href="css/flexboxgrid.css">
-  <link rel="stylesheet" href="css/font-awesome.css">
+
+ 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+  
+  <link rel="stylesheet" href = css\bootstrap-4.3.1-dist\js\bootstrap.min.js>
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
+  <link rel="stylesheet" href=css\bootstrap-4.3.1-dist\css\bootstrap.min.css> 
   <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="css/flexboxgrid.css">
-<link rel="stylesheet" href="css/font-awesome.css">
+ 
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="css\bootstrap-4.4.1-dist\css\bootstrap.min.css">
 
 <title>Gallery</title>
 <style media="screen">
@@ -54,7 +45,7 @@
             <a class="nav-link" href="About.php" style="color:black;padding:20px">About</a>
           </li>
           <li class="nav-item">
-          <img src="images/bg-removed-2.png" style="width: 105px; height: 90px; margin-top: -16px">
+          <img src="images/bgedit.png" style="margin-top: -16px">
             <!-- <img src="images/circle.png" style="width: 120px; height: 80px; margin-top: -16px"> -->
           </li>
           <li class="nav-item">
@@ -76,7 +67,7 @@
         <img class="w3-image" src="images/1.2.jpg" style=" width: 95%; height: 100%">
       </div>
       <div class="carousel-cell">
-        <img class="w3-image" src="images/1.1.jpg" style="width: 95%; height: 100%">
+        <img class="w3-image" src="images/1.1edit.jpg" style="width: 95%; height: 100%">
       </div>
        <div class="carousel-cell">
         <img class="w3-image" src="images/1.4.jpg" style="width: 95%; height: 100%">
@@ -108,7 +99,7 @@
     <img src="images/1.2.jpg" id="ci" style="border:none;">
   </div>
   <div class="col-sm-3">
-     <img src="images/1.1.jpg" id="ei" style="border:none;">
+     <img src="images/1.1edit.jpg" id="ei" style="border:none;">
   </div>
   <div class="col-sm-3" id="last">
     <img src="images/1.4.jpg" id="si" style="border:none;">
@@ -132,44 +123,45 @@
             </ul>
           </div>
           <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
-            <img src="images/logo11.jpeg"  style=" width: 100px; height: 80px">
+            <img src="images/bg-removed-2edit.png"  >
           </div>
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
 
             <p>To Top</p>
-            <button style="margin-top: -10px" onclick="topFunction()" id="myBtn" class="btn"><img  src="images/arrows.png" style=" height: 20px; width:20px"></button>
-            <script>
-            var mybutton = document.getElementById("myBtn");
-            window.onscroll = function() {scrollFunction()};
-            function scrollFunction() {
-              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-              } else {
-                mybutton.style.display = "none";
-              }
-            }
-          function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-          }
-          </script>
+            <button style="margin-top: -10px" onclick="topFunction()" id="myBtn" class="btn"><img  src="images/arrowsedit.png"></button>
+            
           </div>
         </div>
       </div>
     </section>
     </footer>
-    <script>
-    window.sr=ScrollReveal();
-    sr.reveal('.pics',{
-      duration:2000,
-      origin:'bottom',
-      viewFactor:0.2
-    })
    
 
-  </script>
+  <script type="text/javascript">
+    function downloadJSAtOnload() {
+        var element = document.createElement("script");
+        element.src = "./scripts.js";
+        document.body.appendChild(element);
+    }
+    if (window.addEventListener)
+        window.addEventListener("load", downloadJSAtOnload, false);
+    else if (window.attachEvent)
+        window.attachEvent("onload", downloadJSAtOnload);
+    else window.onload = downloadJSAtOnload;
+</script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script>document.cookie='resolution='+Math.max(screen.width,screen.height)+'; path=/';</script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <script src="https://unpkg.com/scrollreveal@4.0.6/dist/scrollreveal.js"></script>
+  <script src="css\bootstrap-4.4.1-dist\js\bootstrap.min.js"></script>
+
 </body>
 </html>
